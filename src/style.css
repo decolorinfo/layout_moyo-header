@@ -20,7 +20,7 @@ header {
   background: #fff;
 }
 
-.nav-list {
+ul {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -29,11 +29,11 @@ header {
   margin: 0;
 }
 
-.nav-item:not(:first-child) {
+li:not(:first-child) {
   margin-left: 20px;
 }
 
-.nav-link {
+a {
   display: flex;
   align-items: center;
   color: #000;
