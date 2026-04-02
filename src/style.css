@@ -11,7 +11,7 @@ body {
   width: 40px;
 }
 
-header {
+.header {
   padding-left: 50px;
   padding-right: 50px;
   display: flex;
@@ -20,7 +20,7 @@ header {
   background: #fff;
 }
 
-ul {
+.nav-list {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -29,11 +29,11 @@ ul {
   margin: 0;
 }
 
-li:not(:first-child) {
+.nav-item:not(:first-child) {
   margin-left: 20px;
 }
 
-a {
+.nav-link {
   display: flex;
   align-items: center;
   color: #000;
