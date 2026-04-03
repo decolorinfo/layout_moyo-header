@@ -6,7 +6,8 @@ body {
   margin: 0;
 }
 
-.logo {
+.logo-img {
+  display: block;
   height: 40px;
   width: 40px;
 }
@@ -45,7 +46,7 @@ body {
   height: 60px;
 }
 
-a:hover {
+.nav-link:hover {
   color: var(--primary-color);
 }
 
